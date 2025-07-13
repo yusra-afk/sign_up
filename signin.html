@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign In</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .signin-wrapper {
+      max-width: 450px;
+      background-color: #fff;
+      margin: 5rem auto;
+      padding: 2.5rem 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    }
+    .signin-wrapper h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: #0d6efd;
+      margin-bottom: 2rem;
+    }
+    .form-section {
+      margin-bottom: 1.5rem;
+    }
+    .btn-primary {
+      width: 100%;
+    }
+    .form-footer {
+      margin-top: 1.5rem;
+      text-align: center;
+    }
+    .form-footer a {
+      text-decoration: none;
+      color: #0d6efd;
+    }
+  </style>
+</head>
+<body>
+  <div class="signin-wrapper">
+    <h2>Sign In</h2>
+    <form action="welcome.html" method="GET">
+      <div class="form-section">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" class="form-control" required>
+      </div>
+      <div class="form-section">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" class="form-control" required>
+      </div>
+      <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="remember">
+        <label class="form-check-label" for="remember">Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+    <div class="form-footer">
+      Don’t have an account? <a href="index.html">Sign up here</a>
+    </div>
+  </div>
+</body>
+</html>

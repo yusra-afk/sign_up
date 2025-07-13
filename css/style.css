@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to right, #f0f4ff, #ffffff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem;
+  }
+  
+  .signup-wrapper {
+    max-width: 850px;
+    background-color: #fff;
+    margin: auto;
+    padding: 2.5rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #0d6efd;
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+  
+  .form-control,
+  .form-select {
+    border-radius: 0.6rem;
+    padding: 0.6rem 0.9rem;
+    font-size: 1rem;
+  }
+  
+  .form-section {
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    border-radius: 0.6rem;
+    font-weight: 600;
+    width: 100%;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0b5ed7;
+  }
+  
+  .form-footer {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .form-footer a {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+  
+  .form-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Username availability feedback */
+  .available {
+    color: green;
+    font-size: 0.875rem;
+  }
+  
+  .unavailable {
+    color: red;
+    font-size: 0.875rem;
+  }
+  
+  .text-danger {
+    font-size: 0.9rem;
+  }
