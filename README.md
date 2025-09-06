@@ -21,12 +21,6 @@ It collects user details such as name, email, date of birth, address, and login 
 
 ---
 
-## 📸 Preview  
-*(Replace with actual screenshot paths)*  
-![Sign Up Form Screenshot](images/signup-preview.png)  
-
----
-
 ## 📦 How to Run Locally  
 1. Clone the repository:  
    ```bash
