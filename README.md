@@ -20,9 +20,3 @@ It collects user details such as name, email, date of birth, address, and login 
 - **JavaScript (optional)** – For validation (if added)  
 
 ---
-
-## 📦 How to Run Locally  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yusra-afk/sign_up.git
-   cd sign_up
